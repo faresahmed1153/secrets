@@ -18,25 +18,27 @@
               <label for="password">Password</label>
               <input type="password" class="form-control" name="password">
             </div>
-            <button type="submit" class="btn btn-dark">Login</button>
+
+            <div class="col-sm-4 l">
+              <!--<div class="card">
+                <div class="card-body">-->
+              <a class="btn  btn-social btn-google " href="/auth/google" role="button">
+                <i class="fab fa-google"></i>
+                Sign In with Google
+              </a>
+              <!-- </div>
+              </div> -->
+            </div>
+            <br>
+
+            <button type="submit" class="btn btn-dark l">Login</button>
           </form>
 
         </div>
       </div>
     </div>
 
-    <div class="col-sm-4">
-      <div class="card">
-        <div class="card-body">
-          <a class="btn btn-block" href="/auth/google" role="button">
-            <i class="fab fa-google"></i>
-            Sign In with Google
-          </a>
-        </div>
-      </div>
-    </div>
 
   </div>
-</div>
 
-<%- include('partials/footer') %>
+  <%- include('partials/footer') %>
